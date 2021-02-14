@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: helpdesk
+jwt:
+  secret: helpDesk_oliveira
+  experation: 604800
+
+
